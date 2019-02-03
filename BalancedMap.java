@@ -1,13 +1,5 @@
-package edu.sdsu.cs.datastructures;
-
 import java.util.LinkedList;
 import java.util.TreeMap;
-
-/**
- * Daniel Valoria
- * John Jacobsen
- * CS 310-02
- */
 
 public class BalancedMap<K extends Comparable<K>, V extends Comparable<V> > implements IMap<K, V> {
 
