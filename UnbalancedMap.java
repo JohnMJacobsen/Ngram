@@ -1,12 +1,4 @@
-package edu.sdsu.cs.datastructures;
-
 import java.util.LinkedList;
-
-/**
- * Daniel Valoria
- * John Jacobsen
- * CS 310-02
- */
 
 public class UnbalancedMap<K extends Comparable<K>, V extends Comparable<V> > implements IMap<K, V> {
 
