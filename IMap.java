@@ -1,6 +1,4 @@
-
-package edu.sdsu.cs.datastructures;
-
+//PROVIDED BY TEACHER
 /**
  * The interface for a basic Map/Dictionary Abstract Data Type. This structure
  * associates keys and values.
