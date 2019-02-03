@@ -10,12 +10,10 @@ public class Ngrams {
 
     public static void main(String args[]) {
 
-        //File inFile = new File(args[0]);
-        //File outFile = new File(args[1]);
+        File inFile = new File(args[0]);
+        File outFile = new File(args[1]);
         int counter = 0;
         String token;
-        File inFile = new File("C:\\Users\\jmjac\\IdeaProjects\\program2.1\\src\\main\\java\\edu.sdsu.cs.datastructures\\TestIn.txt");
-        File outFile = new File("C:\\Users\\jmjac\\IdeaProjects\\program2.1\\src\\main\\java\\edu.sdsu.cs.datastructures\\TestOut.txt");
         IMap<Integer, String> unigrams = new BalancedMap<>();
 
         try {
